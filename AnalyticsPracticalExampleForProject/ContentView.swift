@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-                    Page1Component()
-                    Page2Component()
-                    Page3Component()
-                }
-                .tabViewStyle(PageTabViewStyle())
+            Page1Component()
+            Page2Component()
+            Page3Component()
+        }
+        .tabViewStyle(PageTabViewStyle())
     }
 }
 
