@@ -1,16 +1,19 @@
 //
-//  page_3_View.swift
+//  Page3Component.swift
 //  AnalyticsPracticalExampleForProject
 //
-//  Created by Michelle Grover on 4/23/23.
+//  Created by Michelle Grover on 4/25/23.
 //
 
 import SwiftUI
 
 struct Page3Component: View {
     var body: some View {
-        Text("Page 3")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.blue)
+        VStack {
+            TitleAndList(title: "What are linked lists used for?", listItems: ["Dynamic data structures", "Memory management", "Graphs", "Music and media players", "File systems"])
+            Text("Page 3")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.blue)
+        }
     }
 }

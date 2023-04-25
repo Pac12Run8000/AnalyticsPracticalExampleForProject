@@ -10,8 +10,14 @@ import SwiftUI
 
 struct Page1Component: View {
     var body: some View {
-        Text("Page 1")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.red)
+        VStack {
+            TitleAndList(title: "Trees", listItems: ["Binary Trees", "Binary Search Trees", "AVL Trees", "B-Trees", "Trie"])
+            Text("Page 1")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.red)
+            
+        }
+        
+        
     }
 }
