@@ -15,7 +15,9 @@ struct Page1Component: View {
             Text("Page 1")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.red)
-            
+        }
+        .onAppear {
+            print("Analytics test 1")
         }
         
         

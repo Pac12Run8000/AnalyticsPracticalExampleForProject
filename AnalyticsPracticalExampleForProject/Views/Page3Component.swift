@@ -15,5 +15,8 @@ struct Page3Component: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.blue)
         }
+        .onAppear {
+            print("Analytics test 3")
+        }
     }
 }
