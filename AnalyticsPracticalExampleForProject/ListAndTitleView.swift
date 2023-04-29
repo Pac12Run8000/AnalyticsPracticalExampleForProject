@@ -16,9 +16,7 @@ struct TitleAndList: View {
             Text(title)
                 .font(.system(size: 16, weight: .bold))
                 .foregroundColor(.black)
-            Text("User this benefit for things like:")
-                .font(.system(size: 14))
-                .foregroundColor(.black)
+            
             Spacer()
                 .frame(height: 5)
             ForEach(listItems.indices) { index in
