@@ -15,6 +15,7 @@
 		099F55A929F5FC8C000B6A75 /* Page2Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F55A829F5FC8C000B6A75 /* Page2Component.swift */; };
 		099F55BE29F81C75000B6A75 /* ListAndTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F55BD29F81C75000B6A75 /* ListAndTitleView.swift */; };
 		099F55C029F834CA000B6A75 /* Page3Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F55BF29F834CA000B6A75 /* Page3Component.swift */; };
+		09C5FB5B29FCCFAB002A5A28 /* Page4Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5FB5A29FCCFAB002A5A28 /* Page4Component.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		099F55A829F5FC8C000B6A75 /* Page2Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2Component.swift; sourceTree = "<group>"; };
 		099F55BD29F81C75000B6A75 /* ListAndTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAndTitleView.swift; sourceTree = "<group>"; };
 		099F55BF29F834CA000B6A75 /* Page3Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3Component.swift; sourceTree = "<group>"; };
+		09C5FB5A29FCCFAB002A5A28 /* Page4Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4Component.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				099F55A629F5FC7B000B6A75 /* Page1Component.swift */,
 				099F55A829F5FC8C000B6A75 /* Page2Component.swift */,
 				099F55BF29F834CA000B6A75 /* Page3Component.swift */,
+				09C5FB5A29FCCFAB002A5A28 /* Page4Component.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				099F55BE29F81C75000B6A75 /* ListAndTitleView.swift in Sources */,
 				099F55C029F834CA000B6A75 /* Page3Component.swift in Sources */,
 				099F559529F5BD04000B6A75 /* AnalyticsPracticalExampleForProjectApp.swift in Sources */,
+				09C5FB5B29FCCFAB002A5A28 /* Page4Component.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
